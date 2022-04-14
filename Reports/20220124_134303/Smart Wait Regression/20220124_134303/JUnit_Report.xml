@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smart Wait Regression" time="395.941" tests="7" failures="1" errors="0">
+   <testsuite name="Smart Wait Regression" tests="7" failures="1" errors="0" time="395.941" skipped="0" timestamp="2022-01-24 13:43:07" hostname="anle - localhost" id="Test Suites/Smart Wait Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220124_134303/Smart Wait Regression/20220124_134303"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220124_134303/Smart Wait Regression/20220124_134303/execution0.log"/>
+         <property name="attachments" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220124_134303/Smart Wait Regression/20220124_134303/1643006852470.png"/>
+         <property name="hostName" value="anle - localhost"/>
+         <property name="remoteDriverUrl" value="testcloud.dev.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;94.0.4606.81&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;94.0.4606.113 (9d935b6bb55ebbb1d06628ea2b6b0c812db527f4-refs/branch-heads/4606@{#1424})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.vnnFij&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:38417&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;se:cdp&quot;: &quot;ws://172.41.3.104:4444/session/0ea63c12d23de5f737f44d5db64eef22/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;94.0.4606.81&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.41.3.104:4444/session/0ea63c12d23de5f737f44d5db64eef22/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.41.3.104:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="0ea63c12d23de5f737f44d5db64eef22"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Smart Await" time="70.285" classname="Test Cases/Smart Await" status="PASSED">
+         <system-out><![CDATA[2022-01-24 13:43:10 - [TEST_CASE][PASSED] - Test Cases/Smart Await: Test Cases/Smart Await
+
+2022-01-24 13:43:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:43:11 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:43:11 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:43:11 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:43:11 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:43:11 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:43:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:44:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:44:06 - [TEST_STEP][PASSED] - navigateToUrl("https://testcloud-smart-await.dev.katalon.com/"): Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-01-24 13:44:07 - [MESSAGE][PASSED] - Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-01-24 13:44:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button")): Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-01-24 13:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-01-24 13:44:10 - [TEST_STEP][PASSED] - verifyTextPresent("Hello RESTEasy", true): Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-01-24 13:44:20 - [MESSAGE][PASSED] - Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-01-24 13:44:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 13:44:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Await" time="56.989" classname="Test Cases/Smart Await" status="PASSED">
+         <system-out><![CDATA[2022-01-24 13:44:21 - [TEST_CASE][PASSED] - Test Cases/Smart Await: Test Cases/Smart Await
+
+2022-01-24 13:44:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:44:21 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:44:21 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:44:21 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:44:21 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:44:21 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:44:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:45:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:45:03 - [TEST_STEP][PASSED] - navigateToUrl("https://testcloud-smart-await.dev.katalon.com/"): Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-01-24 13:45:04 - [MESSAGE][PASSED] - Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-01-24 13:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button")): Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-01-24 13:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-01-24 13:45:07 - [TEST_STEP][PASSED] - verifyTextPresent("Hello RESTEasy", true): Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-01-24 13:45:17 - [MESSAGE][PASSED] - Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-01-24 13:45:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 13:45:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Apply Specific Elementsts - Verify AJAX Text Present" time="47.256" classname="Test Cases/Apply Specific Elementsts - Verify AJAX Text Present" status="PASSED">
+         <system-out><![CDATA[2022-01-24 13:45:18 - [TEST_CASE][PASSED] - Test Cases/Apply Specific Elementsts - Verify AJAX Text Present: Test Cases/Apply Specific Elementsts - Verify AJAX Text Present
+
+2022-01-24 13:45:18 - [TEST_STEP][PASSED] - comment("If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."): If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings.
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings.
+
+2022-01-24 13:45:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:45:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:45:53 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"): Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:45:54 - [MESSAGE][PASSED] - Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:45:54 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2022-01-24 13:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 1")): Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:45:58 - [TEST_STEP][PASSED] - verifyTextPresent("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.", false): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:46:01 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:46:01 - [TEST_STEP][PASSED] - disableSmartWait(): null
+
+2022-01-24 13:46:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 2")): Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:46:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_AjaxDemo/div_Page2_Content"), "Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."): Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:46:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:46:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 13:46:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Apply All Elements - Verify AJAX Text Present" time="46.13" classname="Test Cases/Apply All Elements - Verify AJAX Text Present" status="PASSED">
+         <system-out><![CDATA[2022-01-24 13:46:05 - [TEST_CASE][PASSED] - Test Cases/Apply All Elements - Verify AJAX Text Present: Test Cases/Apply All Elements - Verify AJAX Text Present
+
+2022-01-24 13:46:05 - [TEST_STEP][PASSED] - comment("To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."): To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait.
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait.
+
+2022-01-24 13:46:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:46:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:46:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:46:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"): Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:46:44 - [MESSAGE][PASSED] - Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 1")): Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:46:46 - [TEST_STEP][PASSED] - verifyTextPresent("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.", false): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:46:47 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 2")): Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:46:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_AjaxDemo/div_Page2_Content"), "Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."): Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:46:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:46:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 13:46:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Await" time="42.038" classname="Test Cases/Smart Await" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-01-24 13:46:51 - [TEST_CASE][FAILED] - Test Cases/Smart Await: Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-01-24 13:46:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:46:51 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:46:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:46:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:46:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:46:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:46:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:47:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:47:28 - [TEST_STEP][PASSED] - navigateToUrl("https://testcloud-smart-await.dev.katalon.com/"): Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-01-24 13:47:29 - [MESSAGE][PASSED] - Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-01-24 13:47:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button")): Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-01-24 13:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-01-24 13:47:30 - [TEST_STEP][FAILED] - verifyTextPresent("Hello RESTEasy", true): Unable to verify text 'Hello RESTEasy' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2022-01-24 13:47:32 - [MESSAGE][FAILED] - Text 'Hello RESTEasy' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+)
+
+2022-01-24 13:47:33 - [MESSAGE][FAILED] - Unable to verify text 'Hello RESTEasy' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220124_134303/Smart Wait Regression/20220124_134303/1643006852470.png]]]]></system-out>
+         <system-err><![CDATA[2022-01-24 13:46:51 - [TEST_CASE][FAILED] - Test Cases/Smart Await: Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Apply Specific Elementsts - Verify AJAX Text Present" time="52.9" classname="Test Cases/Apply Specific Elementsts - Verify AJAX Text Present" status="PASSED">
+         <system-out><![CDATA[2022-01-24 13:47:33 - [TEST_CASE][PASSED] - Test Cases/Apply Specific Elementsts - Verify AJAX Text Present: Test Cases/Apply Specific Elementsts - Verify AJAX Text Present
+
+2022-01-24 13:47:33 - [TEST_STEP][PASSED] - comment("If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."): If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings.
+
+2022-01-24 13:47:33 - [MESSAGE][INFO] - If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings.
+
+2022-01-24 13:47:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:47:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 13:47:34 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:47:34 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:47:34 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:47:34 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:47:34 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:47:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:48:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:48:13 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"): Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:48:15 - [MESSAGE][PASSED] - Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:48:15 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2022-01-24 13:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 1")): Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:48:19 - [TEST_STEP][PASSED] - verifyTextPresent("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.", false): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:48:22 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:48:22 - [TEST_STEP][PASSED] - disableSmartWait(): null
+
+2022-01-24 13:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 2")): Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:48:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_AjaxDemo/div_Page2_Content"), "Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."): Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:48:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:48:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 13:48:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Apply All Elements - Verify AJAX Text Present" time="76.55" classname="Test Cases/Apply All Elements - Verify AJAX Text Present" status="PASSED">
+         <system-out><![CDATA[2022-01-24 13:48:26 - [TEST_CASE][PASSED] - Test Cases/Apply All Elements - Verify AJAX Text Present: Test Cases/Apply All Elements - Verify AJAX Text Present
+
+2022-01-24 13:48:26 - [TEST_STEP][PASSED] - comment("To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."): To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait.
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait.
+
+2022-01-24 13:48:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - User set preference: ['browserVersion', '94']
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-01-24 13:48:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 13:49:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 13:49:34 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"): Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:49:35 - [MESSAGE][PASSED] - Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-01-24 13:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 1")): Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-01-24 13:49:37 - [TEST_STEP][PASSED] - verifyTextPresent("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.", false): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:49:38 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-01-24 13:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 2")): Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-01-24 13:49:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_AjaxDemo/div_Page2_Content"), "Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."): Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:49:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-01-24 13:49:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 13:49:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-24 13:43:07 - [TEST_SUITE][FAILED] - Smart Wait Regression: Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-24 13:43:07 - [TEST_SUITE][FAILED] - Smart Wait Regression: Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Hello RESTEasy' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$2.call(Unknown Source)
+	at Smart Await.run(Smart Await:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1643006583569.run(TempTestSuite1643006583569.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Hello RESTEasy' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

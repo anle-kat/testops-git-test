@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,,,,2022-02-18 14:31:28,2022-02-18 14:31:33,4.889s,FAILED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,,,,2022-02-18 14:31:28,2022-02-18 14:31:33,4.408s,FAILED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",,,,2022-02-18 14:31:29,2022-02-18 14:31:29,0.103s,PASSED
+"openBrowser("""")",,,,2022-02-18 14:31:29,2022-02-18 14:31:33,3.944s,FAILED

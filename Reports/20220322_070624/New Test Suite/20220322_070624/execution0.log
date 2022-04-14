@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594073</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594129</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = anle - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">anle - localhost</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594132</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594133</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594133</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.2.5.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.2.5.208</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594139</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594147</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : KatalonHelper.updateInfo()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">12</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594193</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : KatalonHelper.updateInfo()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594193</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594377</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IE mode 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/IE mode 1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IE mode 1</property>
+  <property name="source">\Users\anle\Projects\TestCloud\Testing\smart-wait-example-tests\Test Cases\IE mode 1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594629</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594807</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;os&amp;apos;, &amp;apos;windows&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594807</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserName&amp;apos;, &amp;apos;internet explorer&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594808</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserVersion&amp;apos;, &amp;apos;11&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594808</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;katalon:option&amp;apos;, &amp;apos;{organizationId=152796, tunnelId=, usingTunnel=false}&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594814</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connecting to remote web server &amp;apos;testcloud.dev.katalon.com/hub&amp;apos; with type &amp;apos;Selenium&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:06:34</date>
+  <millis>1647907594994</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666004</millis>
+  <sequence>24</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F0&amp;apos;, ip: &amp;apos;172.41.5.142&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F0&amp;apos;, ip: &amp;apos;172.41.5.142&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;testcloud-grid-session-queue-6687877d4-d2clq&amp;apos;, ip: &amp;apos;172.41.4.43&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.10.75&amp;apos;, java.version: &amp;apos;11.0.11&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Ans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.16&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1647845950736.run(Script1647845950736.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&lt;init&gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+</property>
+  <property name="failed.exception.message">Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]</property>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666013</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666015</millis>
+  <sequence>30</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IE mode 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F0&amp;apos;, ip: &amp;apos;172.41.5.142&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F0&amp;apos;, ip: &amp;apos;172.41.5.142&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;testcloud-grid-session-queue-6687877d4-d2clq&amp;apos;, ip: &amp;apos;172.41.4.43&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.10.75&amp;apos;, java.version: &amp;apos;11.0.11&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Ans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.16&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>IE mode 1</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>442</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>433</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>404</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>164</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1647907584040</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&lt;init&gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.message">Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F0&apos;, ip: &apos;172.41.5.142&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]</property>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666023</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IE mode 1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666029</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IE mode 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/IE mode 1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IE mode 1</property>
+  <property name="source">\Users\anle\Projects\TestCloud\Testing\smart-wait-example-tests\Test Cases\IE mode 1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666037</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666045</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;os&amp;apos;, &amp;apos;windows&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666045</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserName&amp;apos;, &amp;apos;internet explorer&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666046</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserVersion&amp;apos;, &amp;apos;11&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666046</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;katalon:option&amp;apos;, &amp;apos;{organizationId=152796, tunnelId=, usingTunnel=false}&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666047</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connecting to remote web server &amp;apos;testcloud.dev.katalon.com/hub&amp;apos; with type &amp;apos;Selenium&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:07:46</date>
+  <millis>1647907666049</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738540</millis>
+  <sequence>46</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F4&amp;apos;, ip: &amp;apos;172.41.5.240&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F4&amp;apos;, ip: &amp;apos;172.41.5.240&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;testcloud-grid-session-queue-6687877d4-d2clq&amp;apos;, ip: &amp;apos;172.41.4.43&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.10.75&amp;apos;, java.version: &amp;apos;11.0.11&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Ans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.16&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1647845950736.run(Script1647845950736.groovy:20)
+	... 14 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&lt;init&gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+</property>
+  <property name="failed.exception.message">Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]</property>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738545</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738547</millis>
+  <sequence>52</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IE mode 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F4&amp;apos;, ip: &amp;apos;172.41.5.240&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;W-INTERNE-11-F4&amp;apos;, ip: &amp;apos;172.41.5.240&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;11.0.13&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;4.1.2&amp;apos;, revision: &amp;apos;Unknown&amp;apos;
+System info: host: &amp;apos;testcloud-grid-session-queue-6687877d4-d2clq&amp;apos;, ip: &amp;apos;172.41.4.43&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.10.75&amp;apos;, java.version: &amp;apos;11.0.11&amp;apos;
+Driver info: driver.version: unknown
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Ans-MacBook-Pro.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.16&amp;apos;, java.version: &amp;apos;1.8.0_275&amp;apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&amp;lt;init&amp;gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>IE mode 1</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>442</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>433</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>404</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>363</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>164</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1647907584040</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.&lt;init&gt;(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:542)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:326)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at IE mode 1.run(IE mode 1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647907584040.run(TempTestSuite1647907584040.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.message">Could not start a new session. Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: No matching capability sets found.
+Unable to match capability set 0: ms:edgeOptions is an unknown extension capability for IE
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;W-INTERNE-11-F4&apos;, ip: &apos;172.41.5.240&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;4.1.2&apos;, revision: &apos;Unknown&apos;
+System info: host: &apos;testcloud-grid-session-queue-6687877d4-d2clq&apos;, ip: &apos;172.41.4.43&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.75&apos;, java.version: &apos;11.0.11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Ans-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1ce9:4ec6:9a0b:d3a2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_275&apos;
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=55, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=64, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=120, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=336, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=68, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=64, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=Executors.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=515, classLoaderName=null}, {fileName=FutureTask.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=264, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1128, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=628, classLoaderName=null}, {fileName=Thread.java, moduleVersion=11.0.11, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=829, classLoaderName=null}]</property>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738553</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IE mode 1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738557</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IE mode 1</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">1</property>
+  <property name="name">Test Cases/IE mode 1</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IE mode 1</property>
+  <property name="source">\Users\anle\Projects\TestCloud\Testing\smart-wait-example-tests\Test Cases\IE mode 1.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">2</property>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738566</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738574</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;os&amp;apos;, &amp;apos;windows&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738574</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserName&amp;apos;, &amp;apos;internet explorer&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738575</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserVersion&amp;apos;, &amp;apos;11&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738575</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;katalon:option&amp;apos;, &amp;apos;{organizationId=152796, tunnelId=, usingTunnel=false}&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738576</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connecting to remote web server &amp;apos;testcloud.dev.katalon.com/hub&amp;apos; with type &amp;apos;Selenium&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T07:08:58</date>
+  <millis>1647907738578</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2022-03-22T17:04:44</date>
+  <millis>1647943484707</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>321</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:05:24</date>
+  <millis>1647943524220</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>331</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:05:45</date>
+  <millis>1647943545621</millis>
+  <sequence>134</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>339</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:06:10</date>
+  <millis>1647943570801</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>352</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:06:27</date>
+  <millis>1647943587244</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>358</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:06:57</date>
+  <millis>1647943617301</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>370</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:07:22</date>
+  <millis>1647943642748</millis>
+  <sequence>138</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>376</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:07:54</date>
+  <millis>1647943674427</millis>
+  <sequence>139</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>385</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:08:50</date>
+  <millis>1647943730500</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>398</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:10:52</date>
+  <millis>1647943852733</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>417</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:11:36</date>
+  <millis>1647943896340</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>429</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:12:06</date>
+  <millis>1647943926838</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>445</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:12:34</date>
+  <millis>1647943954367</millis>
+  <sequence>144</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>449</thread>
+  <message>deviceId = null</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">null</property>
+</record>
+<record>
+  <date>2022-03-22T17:12:34</date>
+  <millis>1647943954367</millis>
+  <sequence>145</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>449</thread>
+  <message>deviceName = iPhone 12 Pro</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">iPhone 12 Pro</property>
+</record>
+<record>
+  <date>2022-03-22T17:12:34</date>
+  <millis>1647943954368</millis>
+  <sequence>146</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>449</thread>
+  <message>deviceModel = null</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">null</property>
+</record>
+<record>
+  <date>2022-03-22T17:12:34</date>
+  <millis>1647943954368</millis>
+  <sequence>147</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>449</thread>
+  <message>deviceManufacturer = null</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">null</property>
+</record>
+<record>
+  <date>2022-03-22T17:12:34</date>
+  <millis>1647943954368</millis>
+  <sequence>148</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>449</thread>
+  <message>deviceOS = iOS</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">iOS</property>
+</record>
+<record>
+  <date>2022-03-22T17:12:34</date>
+  <millis>1647943954368</millis>
+  <sequence>149</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>449</thread>
+  <message>deviceOSVersion = 14.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">14.2.1</property>
+</record>
+<record>
+  <date>2022-03-22T17:18:02</date>
+  <millis>1647944282297</millis>
+  <sequence>154</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>Appium server started on port 54,039</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-03-22T17:18:12</date>
+  <millis>1647944292530</millis>
+  <sequence>156</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>Failed to start ios_webkit_debug_proxy on default port 27753</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">com.kms.katalon.core.appium.exception.IOSWebkitStartException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.appium.exception.IOSWebkitStartException: Failed to start ios_webkit_debug_proxy on default port 27753
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.startWebProxyServer(AppiumDriverManager.java:181)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureWebProxyServerStarted(AppiumDriverManager.java:157)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.ensureServicesStarted(AppiumDriverManager.java:237)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:473)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:539)
+	at com.kms.katalon.composer.mobile.objectspy.dialog.MobileInspectorController.startMobileApp(MobileInspectorController.java:196)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite$12$1.call(MobileLocalAppComposite.java:479)
+	at com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.startThreadAndWait(ProgressMonitorDialogWithThread.java:36)
+	at com.kms.katalon.composer.components.impl.dialogs.ProgressMonitorDialogWithThread.runAndWait(ProgressMonitorDialogWithThread.java:48)
+	at com.kms.katalon.composer.mobile.objectspy.components.MobileLocalAppComposite$12.run(MobileLocalAppComposite.java:474)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+</property>
+  <property name="failed.exception.message">Failed to start ios_webkit_debug_proxy on default port 27753</property>
+</record>
+<record>
+  <date>2022-03-22T17:20:17</date>
+  <millis>1647944417367</millis>
+  <sequence>157</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>deviceId = null</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">null</property>
+</record>
+<record>
+  <date>2022-03-22T17:20:17</date>
+  <millis>1647944417368</millis>
+  <sequence>158</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>deviceName = iPhone 11</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">iPhone 11</property>
+</record>
+<record>
+  <date>2022-03-22T17:20:17</date>
+  <millis>1647944417369</millis>
+  <sequence>159</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>deviceModel = Not available for Simulator</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">Not available for Simulator</property>
+</record>
+<record>
+  <date>2022-03-22T17:20:17</date>
+  <millis>1647944417369</millis>
+  <sequence>160</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>deviceManufacturer = Apple</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Apple</property>
+</record>
+<record>
+  <date>2022-03-22T17:20:17</date>
+  <millis>1647944417369</millis>
+  <sequence>161</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>deviceOS = iOS</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">iOS</property>
+</record>
+<record>
+  <date>2022-03-22T17:20:17</date>
+  <millis>1647944417370</millis>
+  <sequence>162</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>475</thread>
+  <message>deviceOSVersion = 15.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15.0</property>
+</record>
+</log>

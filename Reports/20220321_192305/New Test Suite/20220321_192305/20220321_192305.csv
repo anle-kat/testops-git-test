@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Chrome 97.0.4692.99,,,2022-03-21 19:23:15,2022-03-21 19:24:59,1m - 44.578s,PASSED
+,,,,,,,
+Test Cases/IE mode 1,Windows - Chrome 97.0.4692.99,,,2022-03-21 19:23:15,2022-03-21 19:24:59,1m - 44.246s,PASSED
+"openBrowser("""")",Windows - Chrome 97.0.4692.99,,,2022-03-21 19:23:15,2022-03-21 19:24:40,1m - 24.671s,PASSED
+"navigateToUrl(""https://app.qase.io/login"")",Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:40,2022-03-21 19:24:42,1.766s,PASSED
+"aa = findTestObject(""Object Repository/Page_Qase - test case management/input_Email_email"")",Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:42,2022-03-21 19:24:42,0.069s,PASSED
+Thread.sleep(2000),Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:42,2022-03-21 19:24:44,2.007s,PASSED
+"setText(aa, ""an.le@zamo.io"")",Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:44,2022-03-21 19:24:51,6.776s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Qase - test case management/input_Password_password""), ""aeHFOx8jV/A="")",Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:51,2022-03-21 19:24:54,3.746s,PASSED
+"click(findTestObject(""Object Repository/Page_Qase - test case management/button_Login""))",Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:54,2022-03-21 19:24:58,3.361s,PASSED
+closeBrowser(),Windows - Chrome 97.0.4692.99,,,2022-03-21 19:24:58,2022-03-21 19:24:59,1.613s,PASSED

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="247.508" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="247.508" skipped="0" timestamp="2022-03-21 20:53:11" hostname="anle - localhost" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220321_205301/New Test Suite/20220321_205301"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220321_205301/New Test Suite/20220321_205301/execution0.log"/>
+         <property name="attachments" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220321_205301/New Test Suite/20220321_205301/1647871029765.png"/>
+         <property name="hostName" value="anle - localhost"/>
+         <property name="remoteDriverUrl" value="testcloud.dev.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;internet explorer&quot;,
+  &quot;browserVersion&quot;: &quot;11&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;3cbfe88a-2e95-4736-b829-a1690f2afcd4&quot;,
+  &quot;se:ieOptions&quot;: {
+    &quot;browserAttachTimeout&quot;: 0,
+    &quot;elementScrollBehavior&quot;: 0,
+    &quot;enablePersistentHover&quot;: false,
+    &quot;ie.browserCommandLineSwitches&quot;: &quot;&quot;,
+    &quot;ie.edgechromium&quot;: true,
+    &quot;ie.edgepath&quot;: &quot;&quot;,
+    &quot;ie.ensureCleanSession&quot;: false,
+    &quot;ie.fileUploadDialogTimeout&quot;: 3000,
+    &quot;ie.forceCreateProcessApi&quot;: false,
+    &quot;ie.usePerProcessProxy&quot;: false,
+    &quot;ignoreProtectedModeSettings&quot;: true,
+    &quot;ignoreZoomSetting&quot;: true,
+    &quot;initialBrowserUrl&quot;: &quot;http://localhost:52631/&quot;,
+    &quot;nativeEvents&quot;: true,
+    &quot;requireWindowFocus&quot;: true
+  },
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;test:katalon:option&quot;: {
+    &quot;organizationId&quot;: &quot;152796&quot;,
+    &quot;unlimitedExecutionMinutes&quot;: false,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6IjQ4Nzk3OCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIiwiZW1haWwiOiJhbi5sZUBrYXRhbG9uLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJjcmVhdGVkX2F0IjoxNjMxMjcwMjU2LCJ1cGRhdGVkX2F0IjoxNjQ3ODYxODE2LCJhbXIiOlsicHdkIl0sImlhdCI6MTY0Nzg2MTk1MCwiZXhwIjoxNjQ4NDY2NzUwLCJqdGkiOiJiNWUzM2ZkMy01NTJhLTQyOGQtODRhMS0wY2I3NzNhM2ViZGIiLCJpc3MiOiJrYXRhbG9uLWF1dGgifQ.jvzrxdsrzTgxchmAwNQXFzhGogo7T6Dpn0UHb5vei4XqmK3zGj30EFbp0J7JQlnl1l0E0X59dWTlpgJ5yOVOTtE94b0iMPutRdCJ_qEm-2edkBXA0cBW7_m9IJvIFSxZn-ZR6lYot13W4ffh7IIpRW3j0Rn8xBrCorbWhy6sDMh9EAdw3pkvBBZij7yZ5Y5C0rAfy8g7BDu6ok-LlWWj4IzVrlflWfB-0AgrI2euy1bUGiPbxtVKdT91GaObl0CLJjy3ZXM02pp4UrDM8MQ5LVBAf8iDrVQfNJQ2DJD8m84JUHXFJR3zkSan6Ur1bZCCS5ydZ0kkXi-VRcUpcDJ5TQ&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;userId&quot;: 487978,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;an.le@katalon.com&quot;
+  },
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="870fdc71-cb80-4dd1-b989-e2198cf88221"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=SOCKS, username=, password=********, proxyServerAddress=localhost, proxyServerPort=8080, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IE mode 1" time="0.669" classname="Test Cases/IE mode 1" status="INCOMPLETE">
+         <system-out><![CDATA[2022-03-21 20:57:18 - [TEST_CASE][INCOMPLETE] - Test Cases/IE mode 1: null
+
+2022-03-21 20:57:18 - [TEST_STEP][INCOMPLETE] - openBrowser(""): Action delay is set to 0 milliseconds
+
+2022-03-21 20:57:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-21 20:57:19 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-03-21 20:57:19 - [MESSAGE][INFO] - User set preference: ['browserName', 'internet explorer']
+
+2022-03-21 20:57:19 - [MESSAGE][INFO] - User set preference: ['browserVersion', '11']
+
+2022-03-21 20:57:19 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-03-21 20:57:19 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-03-21 20:57:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds]]></system-out>
+         <system-err><![CDATA[2022-03-21 20:57:18 - [TEST_CASE][INCOMPLETE] - Test Cases/IE mode 1: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-21 20:53:11 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[2022-03-21 20:53:11 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

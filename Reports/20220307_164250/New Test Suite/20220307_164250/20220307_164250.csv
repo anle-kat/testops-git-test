@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Edge Chromium 97,,,2022-03-07 16:42:59,2022-03-07 17:02:00,19m - 0.345s,FAILED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Windows - Edge Chromium 97,,,2022-03-07 17:01:59,2022-03-07 17:02:00,0.623s,FAILED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Windows - Edge Chromium 97,,,2022-03-07 17:01:59,2022-03-07 17:01:59,0.003s,PASSED
+"openBrowser("""")",Windows - Edge Chromium 97,,,2022-03-07 17:01:59,2022-03-07 17:02:00,0.606s,FAILED

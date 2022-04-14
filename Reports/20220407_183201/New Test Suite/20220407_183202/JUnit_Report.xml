@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="126.041" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="126.041" skipped="0" timestamp="2022-04-07 18:32:20" hostname="anle - 10.10.33.156" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220407_183201/New Test Suite/20220407_183202"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220407_183201/New Test Suite/20220407_183202/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - 10.10.33.156"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;99.0.4844.51&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Users\\ContainerUser\\AppData\\Local\\Temp\\scoped_dir28548_1850653528&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49534&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;organizationId&quot;: &quot;152796&quot;,
+    &quot;unlimitedExecutionMinutes&quot;: false,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6Ijc2MjEwMCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IkFuIiwiZmFtaWx5X25hbWUiOiJMZSIsImVtYWlsIjoiYW4ubGVAa2F0YWxvbi5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiY3JlYXRlZF9hdCI6MTYzMTI2OTcwMSwidXBkYXRlZF9hdCI6MTY0OTMzMDkwMSwiYW1yIjpbInB3ZCJdLCJpYXQiOjE2NDkzMzA5MTQsImV4cCI6MTY0OTkzNTcxNCwianRpIjoiNmIxZWQxYTItNWExOS00ZTM0LTk3ZjQtY2FjYzAyNTEzZGM2IiwiaXNzIjoia2F0YWxvbi1hdXRoIn0.UfLPpDYRotvYmWX3-nKahv29xdjMvSWhwWRwTkTAPTgqHV1rFNpiD11GQNIjBP0IplC-MGNCzyiRfiWlWVhNh-XmIXZWXkIqktTL0fDmOqePPhirFX2uuDCGE-hmz1w15Z3IKfYHPQncyGg3oKbUhXl7XzgmeJsrWi8MNd8GJT5cEpnXF7jJVXavVeMUiqOOCsTde53nfF_s-YnPgyeyFgN_n_doRrmdURwMzDo8peK4gV1Y-XaLJijQs6rV_nhC3ulIYD2AGHFLJsmFSxRT1n57VdxdRun6tuUxBxcRRM9-iVXu6--PV3vTqb887-zIqMRjYt3t-EZxSQsQyUxL3A&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;userId&quot;: 762100,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;an.le@katalon.com&quot;
+  },
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;94abcb00-1486-4029-a4a2-984f3f2cefc1&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.116.93:4444/session/957a22180c2b8771cc6b990ac4eab780/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;99.0.4844.51&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="10.10.33.156"/>
+         <property name="sessionId" value="957a22180c2b8771cc6b990ac4eab780"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=SOCKS, username=, password=********, proxyServerAddress=localhost, proxyServerPort=8080, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="125.746" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-04-07 18:32:21 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-04-07 18:32:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-07 18:32:21 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-04-07 18:32:21 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-07 18:32:21 - [MESSAGE][INFO] - User set preference: ['browserVersion', '99']
+
+2022-04-07 18:32:21 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-04-07 18:32:21 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-07 18:32:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-07 18:33:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-07 18:33:30 - [TEST_STEP][PASSED] - navigateToUrl("https://hosrem.zamo.io/user/login"): Navigate to 'https://hosrem.zamo.io/user/login' successfully
+
+2022-04-07 18:33:39 - [MESSAGE][PASSED] - Navigate to 'https://hosrem.zamo.io/user/login' successfully
+
+2022-04-07 18:33:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username"), "admin@hosrem.org.vn"): Text 'admin@hosrem.org.vn' is set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username'
+
+2022-04-07 18:33:48 - [MESSAGE][PASSED] - Text 'admin@hosrem.org.vn' is set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username'
+
+2022-04-07 18:33:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password"), "lRjbE94itQ2P5Nq77tCtDw=="): Text ****** has been set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password'
+
+2022-04-07 18:33:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password'
+
+2022-04-07 18:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ng nhp - HOSREM/button_ng nhp")): Object: 'Object Repository/Page_ng nhp - HOSREM/button_ng nhp' is clicked on
+
+2022-04-07 18:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ng nhp - HOSREM/button_ng nhp' is clicked on
+
+2022-04-07 18:33:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh"), "Danh sách hội nghị"): Actual text and expected text of test object 'Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh' are matched.
+
+2022-04-07 18:34:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh' are matched.
+
+2022-04-07 18:34:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-07 18:34:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-07 18:32:20 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

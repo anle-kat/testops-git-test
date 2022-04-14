@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Chrome 96.0.4664.110,,,2022-03-16 13:46:02,2022-03-16 13:48:18,2m - 16.289s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Windows - Chrome 96.0.4664.110,,,2022-03-16 13:46:02,2022-03-16 13:48:18,2m - 15.903s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Windows - Chrome 96.0.4664.110,,,2022-03-16 13:46:02,2022-03-16 13:46:02,0.082s,PASSED
+"openBrowser("""")",Windows - Chrome 96.0.4664.110,,,2022-03-16 13:46:02,2022-03-16 13:48:03,2m - 0.544s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Windows - Chrome 96.0.4664.110,,,2022-03-16 13:48:03,2022-03-16 13:48:05,1.868s,PASSED
+enableSmartWait(),Windows - Chrome 96.0.4664.110,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-03-16 13:48:05,2022-03-16 13:48:05,0.026s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Windows - Chrome 96.0.4664.110,,,2022-03-16 13:48:05,2022-03-16 13:48:10,4.620s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Windows - Chrome 96.0.4664.110,,,2022-03-16 13:48:10,2022-03-16 13:48:13,3.604s,PASSED
+disableSmartWait(),Windows - Chrome 96.0.4664.110,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-03-16 13:48:13,2022-03-16 13:48:13,0.019s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Windows - Chrome 96.0.4664.110,,,2022-03-16 13:48:13,2022-03-16 13:48:15,1.750s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Windows - Chrome 96.0.4664.110,"Without enableSmartWait, this step should be failed",,2022-03-16 13:48:15,2022-03-16 13:48:16,1.401s,PASSED
+closeBrowser(),Windows - Chrome 96.0.4664.110,,,2022-03-16 13:48:16,2022-03-16 13:48:18,1.671s,PASSED

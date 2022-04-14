@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (1),,,,2022-03-02 15:21:23,2022-03-02 15:21:55,32.167s,FAILED
+,,,,,,,
+Test Cases/Smart Await,,,,2022-03-02 15:21:48,2022-03-02 15:21:55,7.679s,FAILED
+"openBrowser("""")",,,,2022-03-02 15:21:48,2022-03-02 15:21:55,7.669s,FAILED

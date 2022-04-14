@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Edge Chromium 99,,,2022-04-06 14:10:05,2022-04-06 14:12:48,2m - 43.098s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Windows - Edge Chromium 99,,,2022-04-06 14:10:05,2022-04-06 14:12:48,2m - 42.426s,PASSED
+"openBrowser("""")",Windows - Edge Chromium 99,,,2022-04-06 14:10:06,2022-04-06 14:12:19,2m - 13.091s,PASSED
+"navigateToUrl(""https://hosrem.zamo.io/user/login"")",Windows - Edge Chromium 99,,,2022-04-06 14:12:19,2022-04-06 14:12:27,7.884s,PASSED
+"setText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username""), ""admin@hosrem.org.vn"")",Windows - Edge Chromium 99,,,2022-04-06 14:12:27,2022-04-06 14:12:33,6.241s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password""), ""lRjbE94itQ2P5Nq77tCtDw=="")",Windows - Edge Chromium 99,,,2022-04-06 14:12:33,2022-04-06 14:12:38,4.849s,PASSED
+"click(findTestObject(""Object Repository/Page_ng nhp - HOSREM/button_ng nhp""))",Windows - Edge Chromium 99,,,2022-04-06 14:12:38,2022-04-06 14:12:41,2.550s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh""), ""Danh sách hội nghị"")",Windows - Edge Chromium 99,,,2022-04-06 14:12:41,2022-04-06 14:12:44,3.448s,PASSED
+closeBrowser(),Windows - Edge Chromium 99,,,2022-04-06 14:12:44,2022-04-06 14:12:48,3.803s,PASSED

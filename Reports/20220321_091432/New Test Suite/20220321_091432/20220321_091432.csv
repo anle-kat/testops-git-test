@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - IE 11,,,2022-03-21 09:14:43,2022-03-21 09:23:11,8m - 28.192s,FAILED
+,,,,,,,
+Test Cases/IE mode,Windows - IE 11,,,2022-03-21 09:21:10,2022-03-21 09:23:11,2m - 1.758s,FAILED
+"openBrowser("""")",Windows - IE 11,,,2022-03-21 09:21:10,2022-03-21 09:22:28,1m - 18.430s,PASSED
+"navigateToUrl(""https://dev.koffi.vn/"")",Windows - IE 11,,,2022-03-21 09:22:28,2022-03-21 09:22:31,2.600s,PASSED
+"click(findTestObject(""Object Repository/Page_H thng qun l ha n in t - Koffi.vn/a_ng nhp""))",Windows - IE 11,,,2022-03-21 09:22:31,2022-03-21 09:23:11,40.717s,FAILED

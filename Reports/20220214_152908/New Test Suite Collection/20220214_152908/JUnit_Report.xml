@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite Collection" time="25.91" tests="1" failures="0" errors="0">
+   <testsuite name="Smart Wait Regression" tests="1" failures="0" errors="0" time="21.99" skipped="0" timestamp="2022-02-14 15:29:15" hostname="anle - localhost" id="Test Suites/Smart Wait Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220214_152908/Smart Wait Regression/20220214_152909"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220214_152908/Smart Wait Regression/20220214_152909/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.80"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="8b46a950fecae91c55b811c7376e844e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Smart Await" time="18.553" classname="Test Cases/Smart Await" status="PASSED">
+         <system-out><![CDATA[2022-02-14 15:29:18 - [TEST_CASE][PASSED] - Test Cases/Smart Await: Test Cases/Smart Await
+
+2022-02-14 15:29:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-14 15:29:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-14 15:29:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-14 15:29:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-14 15:29:24 - [TEST_STEP][PASSED] - navigateToUrl("https://testcloud-smart-await.dev.katalon.com/"): Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-02-14 15:29:25 - [MESSAGE][PASSED] - Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-02-14 15:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button")): Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-02-14 15:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-02-14 15:29:27 - [TEST_STEP][PASSED] - verifyTextPresent("Hello RESTEasy", true): Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-02-14 15:29:36 - [MESSAGE][PASSED] - Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-02-14 15:29:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-14 15:29:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-14 15:29:15 - [TEST_SUITE][PASSED] - Smart Wait Regression: Test Cases/Smart Await]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

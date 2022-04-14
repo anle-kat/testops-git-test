@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,IE 11,,,2022-03-15 09:06:19,2022-03-15 09:19:14,12m - 55.075s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,IE 11,,,2022-03-15 09:06:19,2022-03-15 09:08:42,2m - 23.028s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",IE 11,,,2022-03-15 09:06:20,2022-03-15 09:06:20,0.103s,PASSED
+"openBrowser("""")",IE 11,,,2022-03-15 09:06:20,2022-03-15 09:08:23,2m - 3.101s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",IE 11,,,2022-03-15 09:08:23,2022-03-15 09:08:25,2.045s,PASSED
+enableSmartWait(),IE 11,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-03-15 09:08:25,2022-03-15 09:08:25,0.016s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",IE 11,,,2022-03-15 09:08:25,2022-03-15 09:08:29,4.382s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",IE 11,,,2022-03-15 09:08:29,2022-03-15 09:08:37,7.550s,PASSED
+disableSmartWait(),IE 11,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-03-15 09:08:37,2022-03-15 09:08:37,0.016s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",IE 11,,,2022-03-15 09:08:37,2022-03-15 09:08:39,2.283s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",IE 11,"Without enableSmartWait, this step should be failed",,2022-03-15 09:08:39,2022-03-15 09:08:42,2.409s,PASSED
+closeBrowser(),IE 11,,,2022-03-15 09:08:42,2022-03-15 09:08:42,0.744s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,IE 11,,,2022-03-15 09:08:42,2022-03-15 09:17:23,8m - 40.251s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",IE 11,,,2022-03-15 09:08:42,2022-03-15 09:08:42,0.002s,PASSED
+"openBrowser("""")",IE 11,,,2022-03-15 09:08:42,2022-03-15 09:17:09,8m - 26.601s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",IE 11,,,2022-03-15 09:17:09,2022-03-15 09:17:10,1.196s,PASSED
+enableSmartWait(),IE 11,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-03-15 09:17:10,2022-03-15 09:17:10,0.006s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",IE 11,,,2022-03-15 09:17:10,2022-03-15 09:17:14,3.637s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",IE 11,,,2022-03-15 09:17:14,2022-03-15 09:17:17,3.630s,PASSED
+disableSmartWait(),IE 11,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-03-15 09:17:17,2022-03-15 09:17:17,0.005s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",IE 11,,,2022-03-15 09:17:17,2022-03-15 09:17:20,2.141s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",IE 11,"Without enableSmartWait, this step should be failed",,2022-03-15 09:17:20,2022-03-15 09:17:22,1.911s,PASSED
+closeBrowser(),IE 11,,,2022-03-15 09:17:22,2022-03-15 09:17:23,1.110s,PASSED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,IE 11,,,2022-03-15 09:17:23,2022-03-15 09:19:14,1m - 51.135s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",IE 11,,,2022-03-15 09:17:23,2022-03-15 09:17:23,0.002s,PASSED
+"openBrowser("""")",IE 11,,,2022-03-15 09:17:23,2022-03-15 09:18:58,1m - 35.405s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",IE 11,,,2022-03-15 09:18:58,2022-03-15 09:19:01,2.344s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",IE 11,,,2022-03-15 09:19:01,2022-03-15 09:19:04,2.964s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",IE 11,,,2022-03-15 09:19:04,2022-03-15 09:19:07,3.590s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",IE 11,,,2022-03-15 09:19:07,2022-03-15 09:19:11,3.595s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",IE 11,,,2022-03-15 09:19:11,2022-03-15 09:19:13,1.860s,PASSED
+closeBrowser(),IE 11,,,2022-03-15 09:19:13,2022-03-15 09:19:14,1.189s,PASSED

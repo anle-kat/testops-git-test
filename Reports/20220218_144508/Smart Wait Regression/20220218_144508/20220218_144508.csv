@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Chrome 94.0.4606.81,,,2022-02-18 14:45:19,2022-02-18 14:46:08,48.338s,PASSED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Chrome 94.0.4606.81,,,2022-02-18 14:45:20,2022-02-18 14:46:08,47.925s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Chrome 94.0.4606.81,,,2022-02-18 14:45:20,2022-02-18 14:45:20,0.079s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.81,,,2022-02-18 14:45:20,2022-02-18 14:45:55,35.084s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Chrome 94.0.4606.81,,,2022-02-18 14:45:55,2022-02-18 14:45:56,0.771s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Chrome 94.0.4606.81,,,2022-02-18 14:45:56,2022-02-18 14:45:59,2.827s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Chrome 94.0.4606.81,,,2022-02-18 14:45:59,2022-02-18 14:46:01,2.630s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Chrome 94.0.4606.81,,,2022-02-18 14:46:01,2022-02-18 14:46:04,2.658s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Chrome 94.0.4606.81,,,2022-02-18 14:46:04,2022-02-18 14:46:07,2.789s,PASSED
+closeBrowser(),Chrome 94.0.4606.81,,,2022-02-18 14:46:07,2022-02-18 14:46:08,0.763s,PASSED

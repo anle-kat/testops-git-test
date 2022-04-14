@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Firefox 96.0,,,2022-03-03 12:23:48,2022-03-03 12:24:59,1m - 10.630s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Windows - Firefox 96.0,,,2022-03-03 12:23:49,2022-03-03 12:24:59,1m - 10.211s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Windows - Firefox 96.0,,,2022-03-03 12:23:49,2022-03-03 12:23:49,0.066s,PASSED
+"openBrowser("""")",Windows - Firefox 96.0,,,2022-03-03 12:23:49,2022-03-03 12:24:48,58.806s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Windows - Firefox 96.0,,,2022-03-03 12:24:48,2022-03-03 12:24:49,0.890s,PASSED
+enableSmartWait(),Windows - Firefox 96.0,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-03-03 12:24:49,2022-03-03 12:24:49,0.045s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Windows - Firefox 96.0,,,2022-03-03 12:24:49,2022-03-03 12:24:52,2.745s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Windows - Firefox 96.0,,,2022-03-03 12:24:52,2022-03-03 12:24:54,2.613s,PASSED
+disableSmartWait(),Windows - Firefox 96.0,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-03-03 12:24:54,2022-03-03 12:24:54,0.018s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Windows - Firefox 96.0,,,2022-03-03 12:24:54,2022-03-03 12:24:56,1.291s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Windows - Firefox 96.0,"Without enableSmartWait, this step should be failed",,2022-03-03 12:24:56,2022-03-03 12:24:57,1.531s,PASSED
+closeBrowser(),Windows - Firefox 96.0,,,2022-03-03 12:24:57,2022-03-03 12:24:59,1.894s,PASSED

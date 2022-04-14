@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Edge Chromium 97,,,2022-03-07 16:28:06,2022-03-07 16:30:35,2m - 29.297s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Windows - Edge Chromium 97,,,2022-03-07 16:28:06,2022-03-07 16:30:35,2m - 28.543s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Windows - Edge Chromium 97,,,2022-03-07 16:28:07,2022-03-07 16:28:07,0.100s,PASSED
+"openBrowser("""")",Windows - Edge Chromium 97,,,2022-03-07 16:28:07,2022-03-07 16:30:22,2m - 15.111s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Windows - Edge Chromium 97,,,2022-03-07 16:30:22,2022-03-07 16:30:23,0.942s,PASSED
+enableSmartWait(),Windows - Edge Chromium 97,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-03-07 16:30:23,2022-03-07 16:30:23,0.020s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Windows - Edge Chromium 97,,,2022-03-07 16:30:23,2022-03-07 16:30:26,3.148s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Windows - Edge Chromium 97,,,2022-03-07 16:30:26,2022-03-07 16:30:29,2.768s,PASSED
+disableSmartWait(),Windows - Edge Chromium 97,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-03-07 16:30:29,2022-03-07 16:30:29,0.018s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Windows - Edge Chromium 97,,,2022-03-07 16:30:29,2022-03-07 16:30:30,1.393s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Windows - Edge Chromium 97,"Without enableSmartWait, this step should be failed",,2022-03-07 16:30:30,2022-03-07 16:30:32,1.402s,PASSED
+closeBrowser(),Windows - Edge Chromium 97,,,2022-03-07 16:30:32,2022-03-07 16:30:35,3.185s,PASSED

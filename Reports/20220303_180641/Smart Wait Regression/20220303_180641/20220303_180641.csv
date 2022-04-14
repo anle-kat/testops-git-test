@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Windows - Chrome 91.0.4472.164,,,2022-03-03 18:06:53,2022-03-03 18:08:13,1m - 20.044s,PASSED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Windows - Chrome 91.0.4472.164,,,2022-03-03 18:06:53,2022-03-03 18:08:13,1m - 19.697s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:06:54,2022-03-03 18:06:54,0.073s,PASSED
+"openBrowser("""")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:06:54,2022-03-03 18:07:57,1m - 3.334s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:07:57,2022-03-03 18:08:01,3.560s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:08:01,2022-03-03 18:08:03,2.796s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:08:03,2022-03-03 18:08:06,2.680s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:08:06,2022-03-03 18:08:09,2.846s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:08:09,2022-03-03 18:08:12,2.711s,PASSED
+closeBrowser(),Windows - Chrome 91.0.4472.164,,,2022-03-03 18:08:12,2022-03-03 18:08:13,1.434s,PASSED

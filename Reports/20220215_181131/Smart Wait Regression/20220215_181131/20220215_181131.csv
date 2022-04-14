@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,,,,2022-02-15 18:11:41,2022-02-15 18:16:27,4m - 46.155s,FAILED
+,,,,,,,
+Test Cases/Smart Await,,,,2022-02-15 18:11:41,2022-02-15 18:16:27,4m - 45.788s,FAILED
+"openBrowser("""")",,,,2022-02-15 18:11:41,2022-02-15 18:16:25,4m - 43.743s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",,,,2022-02-15 18:16:25,2022-02-15 18:16:27,1.771s,FAILED

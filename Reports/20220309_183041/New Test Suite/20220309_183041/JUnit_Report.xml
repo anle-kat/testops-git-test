@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="42.263" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="42.263" skipped="0" timestamp="2022-03-09 18:30:53" hostname="anle - localhost" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220309_183041/New Test Suite/20220309_183041"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220309_183041/New Test Suite/20220309_183041/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - localhost"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;firefox&quot;,
+  &quot;browserVersion&quot;: &quot;96&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;apiKey&quot;: &quot;3645e213-fb29-4171-9f26-47ab5c99ddb0&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;group&quot;: &quot;d054a33f-f3f8-45cf-91ab-b1d484f3aa35&quot;,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6Ijc2MjEwMCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IkFuIiwiZmFtaWx5X25hbWUiOiJMZSIsImVtYWlsIjoiYW4ubGVAa2F0YWxvbi5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiY3JlYXRlZF9hdCI6MTYzMTI2OTcwMSwidXBkYXRlZF9hdCI6MTY0NjgyNDkzNCwiYW1yIjpbInB3ZCJdLCJpYXQiOjE2NDY4MjUwMzMsImV4cCI6MTY0NzQyOTgzMywianRpIjoiZGQwMzY3YTktMWI0Zi00MmU5LThiNTktMDliMWE2M2ZhZmZhIiwiaXNzIjoia2F0YWxvbi1hdXRoIn0.o2xHGqna4fm7RvRKsFAVFkZrtqNHm07zKbNsALeabYfBy6Sc7VrRgIqHH3S4viilSRElsXAtZeunz0oEY2fYwVr3heK4MBTRnrHABT23PPLOjvp63qBDxoBHMVn3sn9fJpAnU5s7CB8kfns3py6kJjysgD3tyBnY2F8SI21hIW1-o_3iqprcQsLnwyuTQd03zdIV-a80_8-9dGNNfK4LRwJm0YimBlvNkKRbeAu3PMaK26A6k9CLQuDo-J2kr-yaJ0bUz59U08XMLMqtI86s-yGfmONcSPdel1IO8gQDu5FQzdTAEEEmkMzK8V-5iNxaDoJO60ecnplT-2mg3NcEPg&quot;,
+    &quot;organizationId&quot;: &quot;152796&quot;,
+    &quot;secret&quot;: &quot;b8281870b90a847e157f185fe496ffb574832801&quot;,
+    &quot;tenant&quot;: &quot;KatalonStudio&quot;,
+    &quot;userId&quot;: 762100,
+    &quot;username&quot;: &quot;an.le@katalon.com&quot;,
+    &quot;usingTunnel&quot;: true
+  },
+  &quot;moz:accessibilityChecks&quot;: false,
+  &quot;moz:buildID&quot;: &quot;20220106144528&quot;,
+  &quot;moz:geckodriverVersion&quot;: &quot;0.30.0&quot;,
+  &quot;moz:headless&quot;: false,
+  &quot;moz:processID&quot;: 167,
+  &quot;moz:profile&quot;: &quot;/tmp/rust_mozprofileqmnMHg&quot;,
+  &quot;moz:shutdownTimeout&quot;: 60000,
+  &quot;moz:useNonSpecCompliantPointerOrigin&quot;: false,
+  &quot;moz:webdriverClick&quot;: true,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;platformVersion&quot;: &quot;5.10.68&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;PAC&quot;,
+    &quot;autodetect&quot;: false,
+    &quot;proxyAutoconfigUrl&quot;: &quot;http://tunnel-manager-internal.katalon.com/pac/29d1411b-1b5c-4427-beba-bf8e37263db2.pac&quot;
+  },
+  &quot;se:vnc&quot;: &quot;ws://172.48.107.157:4444/session/90cad0c5-3205-4149-b9eb-3b74d4165a0e/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.48.107.157:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Firefox 96.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="90cad0c5-3205-4149-b9eb-3b74d4165a0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Apply Specific Elementsts - Verify AJAX Text Present" time="41.728" classname="Test Cases/Apply Specific Elementsts - Verify AJAX Text Present" status="PASSED">
+         <system-out><![CDATA[2022-03-09 18:30:54 - [TEST_CASE][PASSED] - Test Cases/Apply Specific Elementsts - Verify AJAX Text Present: Test Cases/Apply Specific Elementsts - Verify AJAX Text Present
+
+2022-03-09 18:30:54 - [TEST_STEP][PASSED] - comment("If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."): If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings.
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings.
+
+2022-03-09 18:30:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'firefox']
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '96']
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=29d1411b-1b5c-4427-beba-bf8e37263db2, usingTunnel=true}']
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-09 18:30:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-09 18:31:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-09 18:31:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"): Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-03-09 18:31:26 - [MESSAGE][PASSED] - Navigate to 'https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html' successfully
+
+2022-03-09 18:31:26 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2022-03-09 18:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 1")): Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-03-09 18:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 1' is clicked on
+
+2022-03-09 18:31:29 - [TEST_STEP][PASSED] - verifyTextPresent("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.", false): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-03-09 18:31:31 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra.' is present on page 
+
+2022-03-09 18:31:31 - [TEST_STEP][PASSED] - disableSmartWait(): null
+
+2022-03-09 18:31:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_AjaxDemo/a_Page 2")): Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-03-09 18:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_AjaxDemo/a_Page 2' is clicked on
+
+2022-03-09 18:31:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_AjaxDemo/div_Page2_Content"), "Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."): Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-03-09 18:31:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_AjaxDemo/div_Page2_Content' are matched.
+
+2022-03-09 18:31:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-09 18:31:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-09 18:30:53 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Apply Specific Elementsts - Verify AJAX Text Present]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

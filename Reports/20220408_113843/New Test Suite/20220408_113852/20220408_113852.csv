@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Firefox 98.0,,,2022-04-08 11:39:37,2022-04-08 11:41:16,1m - 39.188s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Windows - Firefox 98.0,,,2022-04-08 11:39:38,2022-04-08 11:41:16,1m - 38.456s,PASSED
+"openBrowser("""")",Windows - Firefox 98.0,,,2022-04-08 11:39:38,2022-04-08 11:41:02,1m - 24.006s,PASSED
+"navigateToUrl(""https://hosrem.zamo.io/user/login"")",Windows - Firefox 98.0,,,2022-04-08 11:41:02,2022-04-08 11:41:06,4.200s,PASSED
+"setText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username""), ""admin@hosrem.org.vn"")",Windows - Firefox 98.0,,,2022-04-08 11:41:06,2022-04-08 11:41:09,2.562s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password""), ""lRjbE94itQ2P5Nq77tCtDw=="")",Windows - Firefox 98.0,,,2022-04-08 11:41:09,2022-04-08 11:41:11,1.876s,PASSED
+"click(findTestObject(""Object Repository/Page_ng nhp - HOSREM/button_ng nhp""))",Windows - Firefox 98.0,,,2022-04-08 11:41:11,2022-04-08 11:41:12,1.490s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh""), ""Danh sách hội nghị"")",Windows - Firefox 98.0,,,2022-04-08 11:41:12,2022-04-08 11:41:14,2.011s,PASSED
+closeBrowser(),Windows - Firefox 98.0,,,2022-04-08 11:41:14,2022-04-08 11:41:16,1.866s,PASSED

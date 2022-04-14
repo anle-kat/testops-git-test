@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - IE 11,,,2022-03-21 14:23:12,2022-03-21 14:30:48,7m - 35.805s,FAILED
+,,,,,,,
+Test Cases/IE mode 1,Windows - IE 11,,,2022-03-21 14:29:17,2022-03-21 14:30:48,1m - 30.892s,FAILED
+"openBrowser("""")",Windows - IE 11,,,2022-03-21 14:29:17,2022-03-21 14:30:30,1m - 13.035s,PASSED
+"navigateToUrl(""https://app.qase.io/login"")",Windows - IE 11,,,2022-03-21 14:30:30,2022-03-21 14:30:33,2.846s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qase - test case management/input_Email_email""), ""an.le@zamo.io"")",Windows - IE 11,,,2022-03-21 14:30:33,2022-03-21 14:30:48,15.002s,FAILED

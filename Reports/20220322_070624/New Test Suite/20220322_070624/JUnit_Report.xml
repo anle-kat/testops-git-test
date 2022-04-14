@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="144.505" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="144.505" skipped="0" timestamp="2022-03-22 07:06:34" hostname="anle - localhost" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220322_070624/New Test Suite/20220322_070624"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220322_070624/New Test Suite/20220322_070624/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/IE mode 1" time="0.021" classname="Test Cases/IE mode 1" status="INCOMPLETE">
+         <system-out><![CDATA[2022-03-22 07:08:58 - [TEST_CASE][INCOMPLETE] - Test Cases/IE mode 1: null
+
+2022-03-22 07:08:58 - [TEST_STEP][INCOMPLETE] - openBrowser(""): Action delay is set to 0 milliseconds
+
+2022-03-22 07:08:58 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-03-22 07:08:58 - [MESSAGE][INFO] - User set preference: ['browserName', 'internet explorer']
+
+2022-03-22 07:08:58 - [MESSAGE][INFO] - User set preference: ['browserVersion', '11']
+
+2022-03-22 07:08:58 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-03-22 07:08:58 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-03-22 07:08:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds]]></system-out>
+         <system-err><![CDATA[2022-03-22 07:08:58 - [TEST_CASE][INCOMPLETE] - Test Cases/IE mode 1: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-22 07:06:34 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[2022-03-22 07:06:34 - [TEST_SUITE][INCOMPLETE] - New Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

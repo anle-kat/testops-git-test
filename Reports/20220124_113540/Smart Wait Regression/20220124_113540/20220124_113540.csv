@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Linux - Chrome 97.0.4692.71,,,2022-01-24 11:35:42,2022-01-24 11:41:28,5m - 45.386s,FAILED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Linux - Chrome 97.0.4692.71,,,2022-01-24 11:35:46,2022-01-24 11:37:34,1m - 47.159s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:35:47,2022-01-24 11:35:47,0.087s,PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:35:47,2022-01-24 11:37:23,1m - 35.963s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:23,2022-01-24 11:37:24,1.130s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:24,2022-01-24 11:37:26,2.244s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:26,2022-01-24 11:37:28,2.147s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:28,2022-01-24 11:37:30,2.091s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:30,2022-01-24 11:37:33,2.254s,PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:33,2022-01-24 11:37:34,0.917s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:34,2022-01-24 11:39:32,1m - 57.960s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:34,2022-01-24 11:37:34,0.003s,PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:37:34,2022-01-24 11:39:22,1m - 48.512s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:22,2022-01-24 11:39:23,0.833s,PASSED
+enableSmartWait(),Linux - Chrome 97.0.4692.71,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-01-24 11:39:23,2022-01-24 11:39:23,0.023s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:23,2022-01-24 11:39:26,2.300s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:26,2022-01-24 11:39:28,2.116s,PASSED
+disableSmartWait(),Linux - Chrome 97.0.4692.71,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-01-24 11:39:28,2022-01-24 11:39:28,0.021s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:28,2022-01-24 11:39:29,1.566s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Linux - Chrome 97.0.4692.71,"Without enableSmartWait, this step should be failed",,2022-01-24 11:39:29,2022-01-24 11:39:31,1.443s,PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:31,2022-01-24 11:39:32,0.913s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:32,2022-01-24 11:41:28,1m - 56.195s,FAILED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:39:32,2022-01-24 11:41:23,1m - 50.900s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:41:23,2022-01-24 11:41:24,0.794s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:41:24,2022-01-24 11:41:25,1.473s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Linux - Chrome 97.0.4692.71,,,2022-01-24 11:41:25,2022-01-24 11:41:28,2.693s,FAILED

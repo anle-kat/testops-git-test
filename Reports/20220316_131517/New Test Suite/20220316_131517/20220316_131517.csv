@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-03-16 13:15:28,2022-03-16 13:15:42,13.806s,FAILED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,,,,2022-03-16 13:15:39,2022-03-16 13:15:42,2.255s,FAILED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",,,,2022-03-16 13:15:39,2022-03-16 13:15:39,0.003s,PASSED
+"openBrowser("""")",,,,2022-03-16 13:15:39,2022-03-16 13:15:42,2.240s,FAILED

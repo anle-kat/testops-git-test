@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-03-16 12:33:40,2022-03-16 12:34:11,31.352s,FAILED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,,,,2022-03-16 12:33:51,2022-03-16 12:33:53,2.226s,FAILED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",,,,2022-03-16 12:33:51,2022-03-16 12:33:51,0.002s,PASSED
+"openBrowser("""")",,,,2022-03-16 12:33:51,2022-03-16 12:33:53,2.214s,FAILED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,,,,2022-03-16 12:34:00,2022-03-16 12:34:02,2.226s,FAILED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",,,,2022-03-16 12:34:00,2022-03-16 12:34:00,0.002s,PASSED
+"openBrowser("""")",,,,2022-03-16 12:34:00,2022-03-16 12:34:02,2.212s,FAILED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,,,,2022-03-16 12:34:09,2022-03-16 12:34:11,2.161s,FAILED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",,,,2022-03-16 12:34:09,2022-03-16 12:34:09,0.002s,PASSED
+"openBrowser("""")",,,,2022-03-16 12:34:09,2022-03-16 12:34:11,2.150s,FAILED

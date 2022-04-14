@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (1)" time="43.153" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite (1)" tests="1" failures="0" errors="0" time="43.153" skipped="0" timestamp="2022-03-02 13:04:08" hostname="anle - ans-macbook-pro.lan" id="Test Suites/New Test Suite (1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220302_130357/New Test Suite (1)/20220302_130357"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220302_130357/New Test Suite (1)/20220302_130357/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - ans-macbook-pro.lan"/>
+         <property name="remoteDriverUrl" value="testcloud.dev.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.fGXjGv&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:36939&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;organizationId&quot;: &quot;152796&quot;,
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6IjQ4Nzk3OCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIiwiZW1haWwiOiJhbi5sZUBrYXRhbG9uLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJjcmVhdGVkX2F0IjoxNjMxMjcwMjU2LCJ1cGRhdGVkX2F0IjoxNjQ2MTkzMDEzLCJhbXIiOlsicHdkIl0sImlhdCI6MTY0NjIwMTAyNSwiZXhwIjoxNjQ2ODA1ODI1LCJqdGkiOiJiN2NkODc5OS0wZjdjLTQ4ZGEtOThhNy1kOGM1OGJmMjVjMWIiLCJpc3MiOiJrYXRhbG9uLWF1dGgifQ.nbtunQty57HRgKq3sMbftqtxGR8GapnlIT9lWjCLrpY9IyraYlYGKQ_P3usNwpnTx-v1DAXNaea34j550UHUlwSPL0zJGskortCw9Mtctl0q6wFyxg8yeYW-L_MWrIRIbJw_RQ-TmOc8_M10UC-bvddRMUGkL-mo06lEUakZZ5p8rgyi_4eMcfGl_y-p7G_udofJLvqZssAquyc3W_Qu0AgldHrMqOEnvEF6WWuNQHtl5MDfITkct0IQDwmazfMRgx3oENyMowmt5Dk1XbPQ1fsRnSO0wJKf2pqvA_YSxx1tCDR1Ro_S8zo-BTvjFDjtmpChyd6wDJeLgSyizj1rIQ&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;userId&quot;: 487978,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;an.le@katalon.com&quot;
+  },
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;a9a69131-f7ce-4a14-b419-9800ecc2f284&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.41.3.7:4444/session/1042dc5dfb6273e493eabdcd44eb75bb/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.41.3.7:4444/session/1042dc5dfb6273e493eabdcd44eb75bb/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.41.3.7:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.88.134"/>
+         <property name="sessionId" value="1042dc5dfb6273e493eabdcd44eb75bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Smart Await" time="42.8" classname="Test Cases/Smart Await" status="PASSED">
+         <system-out><![CDATA[2022-03-02 13:04:08 - [TEST_CASE][PASSED] - Test Cases/Smart Await: Test Cases/Smart Await
+
+2022-03-02 13:04:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-02 13:04:09 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-03-02 13:04:09 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-02 13:04:09 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-02 13:04:09 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=152796, tunnelId=, usingTunnel=false}']
+
+2022-03-02 13:04:09 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.dev.katalon.com/hub' with type 'Selenium'
+
+2022-03-02 13:04:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-02 13:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-02 13:04:38 - [TEST_STEP][PASSED] - navigateToUrl("https://testcloud-smart-await.dev.katalon.com/"): Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-03-02 13:04:38 - [MESSAGE][PASSED] - Navigate to 'https://testcloud-smart-await.dev.katalon.com/' successfully
+
+2022-03-02 13:04:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button")): Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-03-02 13:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button' is clicked on
+
+2022-03-02 13:04:41 - [TEST_STEP][PASSED] - verifyTextPresent("Hello RESTEasy", true): Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-03-02 13:04:51 - [MESSAGE][PASSED] - Text 'Hello RESTEasy' is present on page  using regular expression
+
+2022-03-02 13:04:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-02 13:04:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-02 13:04:08 - [TEST_SUITE][PASSED] - New Test Suite (1): Test Cases/Smart Await]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

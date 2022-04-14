@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 98.0.4758.102,,,2022-02-16 16:27:57,2022-02-16 16:29:34,1m - 37.162s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Chrome 98.0.4758.102,,,2022-02-16 16:27:57,2022-02-16 16:29:34,1m - 36.787s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Chrome 98.0.4758.102,,,2022-02-16 16:27:58,2022-02-16 16:27:58,0.086s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-16 16:27:58,2022-02-16 16:29:23,1m - 25.622s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Chrome 98.0.4758.102,,,2022-02-16 16:29:23,2022-02-16 16:29:25,1.978s,PASSED
+enableSmartWait(),Chrome 98.0.4758.102,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-02-16 16:29:25,2022-02-16 16:29:25,0.020s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Chrome 98.0.4758.102,,,2022-02-16 16:29:25,2022-02-16 16:29:28,2.268s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Chrome 98.0.4758.102,,,2022-02-16 16:29:28,2022-02-16 16:29:30,2.041s,PASSED
+disableSmartWait(),Chrome 98.0.4758.102,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-02-16 16:29:30,2022-02-16 16:29:30,0.021s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Chrome 98.0.4758.102,,,2022-02-16 16:29:30,2022-02-16 16:29:31,1.568s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Chrome 98.0.4758.102,"Without enableSmartWait, this step should be failed",,2022-02-16 16:29:31,2022-02-16 16:29:33,1.383s,PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-16 16:29:33,2022-02-16 16:29:34,1.432s,PASSED

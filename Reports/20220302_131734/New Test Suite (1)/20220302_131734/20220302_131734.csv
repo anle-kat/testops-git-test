@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (1),Windows - Chrome 97.0.4692.71,,,2022-03-02 13:17:45,2022-03-02 13:18:22,37.172s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Windows - Chrome 97.0.4692.71,,,2022-03-02 13:17:45,2022-03-02 13:18:22,36.630s,PASSED
+"openBrowser("""")",Windows - Chrome 97.0.4692.71,,,2022-03-02 13:17:45,2022-03-02 13:18:08,22.621s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Windows - Chrome 97.0.4692.71,,,2022-03-02 13:18:08,2022-03-02 13:18:09,0.720s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Windows - Chrome 97.0.4692.71,,,2022-03-02 13:18:09,2022-03-02 13:18:12,2.889s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Windows - Chrome 97.0.4692.71,,,2022-03-02 13:18:12,2022-03-02 13:18:21,9.103s,PASSED
+closeBrowser(),Windows - Chrome 97.0.4692.71,,,2022-03-02 13:18:21,2022-03-02 13:18:22,1.042s,PASSED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,,,,2022-02-14 16:35:47,2022-02-14 16:37:29,1m - 41.429s,FAILED
+,,,,,,,
+Test Cases/Smart Await,,,,2022-02-14 16:35:48,2022-02-14 16:37:29,1m - 41.074s,FAILED
+"openBrowser("""")",,,,2022-02-14 16:35:48,2022-02-14 16:37:29,1m - 40.753s,FAILED

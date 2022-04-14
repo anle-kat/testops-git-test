@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 100.0.4896.88,,,2022-04-14 21:49:16,2022-04-14 21:50:24,1m - 8.677s,ERROR
+,,,,,,,
+Test Cases/New Test Case,Chrome 100.0.4896.88,,,2022-04-14 21:49:16,2022-04-14 21:49:28,12.428s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.88,,,2022-04-14 21:49:16,2022-04-14 21:49:19,2.736s,PASSED
+"navigateToUrl(""https://hosrem.zamo.io/user/login"")",Chrome 100.0.4896.88,,,2022-04-14 21:49:19,2022-04-14 21:49:21,2.108s,PASSED
+"setText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username""), ""admin@hosrem.org.vn"")",Chrome 100.0.4896.88,,,2022-04-14 21:49:21,2022-04-14 21:49:22,1.237s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password""), ""lRjbE94itQ2P5Nq77tCtDw=="")",Chrome 100.0.4896.88,,,2022-04-14 21:49:22,2022-04-14 21:49:23,0.531s,PASSED
+"click(findTestObject(""Object Repository/Page_ng nhp - HOSREM/button_ng nhp""))",Chrome 100.0.4896.88,,,2022-04-14 21:49:23,2022-04-14 21:49:24,1.585s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh""), ""Danh sách hội nghị"")",Chrome 100.0.4896.88,,,2022-04-14 21:49:24,2022-04-14 21:49:28,3.903s,PASSED
+closeBrowser(),Chrome 100.0.4896.88,,,2022-04-14 21:49:28,2022-04-14 21:49:28,0.093s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Chrome 100.0.4896.88,,,2022-04-14 21:50:10,2022-04-14 21:50:24,14.000s,ERROR
+"openBrowser("""")",Chrome 100.0.4896.88,,,2022-04-14 21:50:10,2022-04-14 21:50:12,1.671s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Chrome 100.0.4896.88,,,2022-04-14 21:50:12,2022-04-14 21:50:13,1.172s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Chrome 100.0.4896.88,,,2022-04-14 21:50:13,2022-04-14 21:50:15,2.173s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Chrome 100.0.4896.88,,,2022-04-14 21:50:15,2022-04-14 21:50:24,8.970s,PASSED
+assertTrue(false),Chrome 100.0.4896.88,,,2022-04-14 21:50:24,2022-04-14 21:50:24,0.004s,ERROR

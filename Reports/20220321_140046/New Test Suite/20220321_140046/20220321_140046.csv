@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - IE 11,,,2022-03-21 14:00:57,2022-03-21 14:02:17,1m - 19.845s,PASSED
+,,,,,,,
+Test Cases/IE mode 1,Windows - IE 11,,,2022-03-21 14:00:58,2022-03-21 14:02:17,1m - 19.467s,PASSED
+"openBrowser("""")",Windows - IE 11,,,2022-03-21 14:00:58,2022-03-21 14:02:11,1m - 12.522s,PASSED
+"navigateToUrl(""https://app.qase.io/login"")",Windows - IE 11,,,2022-03-21 14:02:11,2022-03-21 14:02:14,3.025s,PASSED
+"click(findTestObject(""Object Repository/Page_Qase - test case management/button_Login""))",Windows - IE 11,,,2022-03-21 14:02:14,2022-03-21 14:02:17,2.941s,PASSED
+closeBrowser(),Windows - IE 11,,,2022-03-21 14:02:17,2022-03-21 14:02:17,0.651s,PASSED

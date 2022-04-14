@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Linux - Firefox 93.0,,,2022-01-27 19:41:48,2022-01-27 19:42:52,1m - 4.643s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Linux - Firefox 93.0,,,2022-01-27 19:41:52,2022-01-27 19:42:52,59.942s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-27 19:41:53,2022-01-27 19:42:38,44.684s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Linux - Firefox 93.0,,,2022-01-27 19:42:38,2022-01-27 19:42:39,1.191s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Linux - Firefox 93.0,,,2022-01-27 19:42:39,2022-01-27 19:42:42,2.948s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Linux - Firefox 93.0,,,2022-01-27 19:42:42,2022-01-27 19:42:51,8.801s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-27 19:42:51,2022-01-27 19:42:52,1.447s,PASSED

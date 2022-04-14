@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smart Wait Regression" time="286.155" tests="1" failures="1" errors="0">
+   <testsuite name="Smart Wait Regression" tests="1" failures="1" errors="0" time="286.155" skipped="0" timestamp="2022-02-15 18:11:41" hostname="anle - localhost" id="Test Suites/Smart Wait Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220215_181131/Smart Wait Regression/20220215_181131"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220215_181131/Smart Wait Regression/20220215_181131/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - localhost"/>
+         <property name="remoteDriverUrl" value="https://token:eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6IjQ4Nzk3OCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIiwiZW1haWwiOiJhbi5sZUBrYXRhbG9uLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJjcmVhdGVkX2F0IjoxNjMxMjcwMjU2LCJ1cGRhdGVkX2F0IjoxNjQ0ODMwNDMwLCJhbXIiOlsicHdkIl0sImlhdCI6MTY0NDgzMTAyMSwiZXhwIjoxNjQ1NDM1ODIxLCJqdGkiOiJlZjAyY2MxYi1iZTJlLTRjZGMtYTBiZi02YTA5ZTExOTVlM2UiLCJpc3MiOiJrYXRhbG9uLWF1dGgifQ.m2ff6ptdPgt98n_UkmxaaImVcv96cNF37h1p_WTk08OyzHptuPi4RXPNjfDaviXsVjWs8PvS1ZS8rNMF1y9yHHRPw8nJ_lRGpFewoVQtyp-Q68MTUkDx_MDrRKeLwDSA_gbRUHkal6_3Bl555B8wtK35QsXQ8hvO6t6N3llpsmHokjdUUB114f51iu0y4JiHshH3T0cw9NSaykbwzaebZpyLxfsmpN4Bn0fnhRTagiEkoKrkGzKu-HbD2jtLR_d4Xf1bD2hbHYe90pmMaywwho7YIoO1Beb6I41r7h6x2FxnOfEKM5t0UB472uqCblMNPemu94iCfpr0IICyaOjHcw@testcloud-sandbox.dev.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;firefox&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6IjQ4Nzk3OCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IiIsImZhbWlseV9uYW1lIjoiIiwiZW1haWwiOiJhbi5sZUBrYXRhbG9uLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJjcmVhdGVkX2F0IjoxNjMxMjcwMjU2LCJ1cGRhdGVkX2F0IjoxNjQ0ODMwNDMwLCJhbXIiOlsicHdkIl0sImlhdCI6MTY0NDgzMTAyMSwiZXhwIjoxNjQ1NDM1ODIxLCJqdGkiOiJlZjAyY2MxYi1iZTJlLTRjZGMtYTBiZi02YTA5ZTExOTVlM2UiLCJpc3MiOiJrYXRhbG9uLWF1dGgifQ.m2ff6ptdPgt98n_UkmxaaImVcv96cNF37h1p_WTk08OyzHptuPi4RXPNjfDaviXsVjWs8PvS1ZS8rNMF1y9yHHRPw8nJ_lRGpFewoVQtyp-Q68MTUkDx_MDrRKeLwDSA_gbRUHkal6_3Bl555B8wtK35QsXQ8hvO6t6N3llpsmHokjdUUB114f51iu0y4JiHshH3T0cw9NSaykbwzaebZpyLxfsmpN4Bn0fnhRTagiEkoKrkGzKu-HbD2jtLR_d4Xf1bD2hbHYe90pmMaywwho7YIoO1Beb6I41r7h6x2FxnOfEKM5t0UB472uqCblMNPemu94iCfpr0IICyaOjHcw&quot;,
+    &quot;organizationId&quot;: &quot;152796&quot;,
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 487978,
+    &quot;username&quot;: &quot;an.le@katalon.com&quot;,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;moz:accessibilityChecks&quot;: false,
+  &quot;moz:buildID&quot;: &quot;20220202182137&quot;,
+  &quot;moz:geckodriverVersion&quot;: &quot;0.30.0&quot;,
+  &quot;moz:headless&quot;: false,
+  &quot;moz:processID&quot;: 12124,
+  &quot;moz:profile&quot;: &quot;C:\\Users\\ContainerAdministrator\\AppData\\Local\\Temp\\rust_mozprofileh0CkTi&quot;,
+  &quot;moz:shutdownTimeout&quot;: 60000,
+  &quot;moz:useNonSpecCompliantPointerOrigin&quot;: false,
+  &quot;moz:webdriverClick&quot;: true,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;platformVersion&quot;: &quot;10.0&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;e7e42f65-77a5-4728-952d-c37a10c7c5fb&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.41.3.241:4444/session/3c67b319-28c1-453a-8a1c-e0f8fde80534/se/cdp&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value=""/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="3c67b319-28c1-453a-8a1c-e0f8fde80534"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Smart Await" time="285.788" classname="Test Cases/Smart Await" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Smart Await.run(Smart Await:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644923491742.run(TempTestSuite1644923491742.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-15 18:11:41 - [TEST_CASE][FAILED] - Test Cases/Smart Await: Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Smart Await.run(Smart Await:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644923491742.run(TempTestSuite1644923491742.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-02-15 18:11:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 18:11:42 - [MESSAGE][INFO] - User set preference: ['browserName', 'firefox']
+
+2022-02-15 18:11:42 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{usingTunnel=false, organizationId=152796}']
+
+2022-02-15 18:11:42 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-02-15 18:11:42 - [MESSAGE][INFO] - User set preference: ['platformName', 'WINDOWS']
+
+2022-02-15 18:11:42 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud-sandbox.dev.katalon.com/hub' with type 'Selenium'
+
+2022-02-15 18:11:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 18:16:24 - [MESSAGE][INFO] - Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+
+2022-02-15 18:16:25 - [MESSAGE][INFO] - Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+
+2022-02-15 18:16:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 18:16:25 - [TEST_STEP][FAILED] - navigateToUrl("https://testcloud-smart-await.dev.katalon.com/"): Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Smart Await.run(Smart Await:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644923491742.run(TempTestSuite1644923491742.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Script1642517157394.run(Script1642517157394.groovy:22)
+	... 13 more
+)
+
+2022-02-15 18:16:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2022-02-15 18:16:27 - [MESSAGE][FAILED] - Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Smart Await.run(Smart Await:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644923491742.run(TempTestSuite1644923491742.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Script1642517157394.run(Script1642517157394.groovy:22)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2022-02-15 18:11:41 - [TEST_CASE][FAILED] - Test Cases/Smart Await: Test Cases/Smart Await FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://testcloud-smart-await.dev.katalon.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$0.call(Unknown Source)
+	at Smart Await.run(Smart Await:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644923491742.run(TempTestSuite1644923491742.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: Unable to find session with ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-sessions-7f86fb58f4-nfh52', ip: '172.41.5.252', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: 'Unknown'
+System info: host: 'testcloud-grid-router-6bb6449ff9-76c4d', ip: '172.41.5.145', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.75', java.version: '11.0.11'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1482:9ad7:1c1b:f5a4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97, javascriptEnabled: true, katalon:option: {class: com.katalon.testcloud.grid...., jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 152796, unlimitedExecutionMinutes: true, userId: 487978, username: an.le@katalon.com, usingTunnel: false}, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 12124, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), requestId: e7e42f65-77a5-4728-952d-c37..., se:cdp: ws://172.41.3.241:4444/sess..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3c67b319-28c1-453a-8a1c-e0f8fde80534
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-15 18:11:41 - [TEST_SUITE][INCOMPLETE] - Smart Wait Regression: null]]></system-out>
+      <system-err><![CDATA[2022-02-15 18:11:41 - [TEST_SUITE][INCOMPLETE] - Smart Wait Regression: null]]></system-err>
+   </testsuite>
+</testsuites>

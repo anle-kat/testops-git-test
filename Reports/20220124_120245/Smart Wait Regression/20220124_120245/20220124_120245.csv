@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Linux - Firefox 93.0,,,2022-01-24 12:02:47,2022-01-24 12:09:04,6m - 16.932s,FAILED
+,,,,,,,
+Test Cases/Smart Await,Linux - Firefox 93.0,,,2022-01-24 12:02:51,2022-01-24 12:04:00,1m - 9.021s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:02:51,2022-01-24 12:03:45,53.600s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Linux - Firefox 93.0,,,2022-01-24 12:03:45,2022-01-24 12:03:46,0.907s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Linux - Firefox 93.0,,,2022-01-24 12:03:46,2022-01-24 12:03:49,3.588s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Linux - Firefox 93.0,,,2022-01-24 12:03:49,2022-01-24 12:03:58,9.113s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-24 12:03:58,2022-01-24 12:04:00,1.533s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Linux - Firefox 93.0,,,2022-01-24 12:04:00,2022-01-24 12:04:51,50.858s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:04:00,2022-01-24 12:04:36,35.782s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Linux - Firefox 93.0,,,2022-01-24 12:04:36,2022-01-24 12:04:37,0.807s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Linux - Firefox 93.0,,,2022-01-24 12:04:37,2022-01-24 12:04:40,3.335s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Linux - Firefox 93.0,,,2022-01-24 12:04:40,2022-01-24 12:04:49,9.515s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-24 12:04:49,2022-01-24 12:04:51,1.411s,PASSED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Linux - Firefox 93.0,,,2022-01-24 12:04:51,2022-01-24 12:05:44,53.181s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Linux - Firefox 93.0,,,2022-01-24 12:04:51,2022-01-24 12:04:51,0.019s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:04:51,2022-01-24 12:05:30,38.702s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Linux - Firefox 93.0,,,2022-01-24 12:05:30,2022-01-24 12:05:31,1.005s,PASSED
+enableSmartWait(),Linux - Firefox 93.0,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-01-24 12:05:31,2022-01-24 12:05:31,0.021s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Linux - Firefox 93.0,,,2022-01-24 12:05:31,2022-01-24 12:05:35,4.173s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Linux - Firefox 93.0,,,2022-01-24 12:05:35,2022-01-24 12:05:39,4.011s,PASSED
+disableSmartWait(),Linux - Firefox 93.0,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-01-24 12:05:39,2022-01-24 12:05:39,0.014s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Linux - Firefox 93.0,,,2022-01-24 12:05:39,2022-01-24 12:05:40,1.526s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Linux - Firefox 93.0,"Without enableSmartWait, this step should be failed",,2022-01-24 12:05:40,2022-01-24 12:05:42,2.010s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-24 12:05:42,2022-01-24 12:05:44,1.498s,PASSED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Linux - Firefox 93.0,,,2022-01-24 12:05:44,2022-01-24 12:06:36,51.691s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Linux - Firefox 93.0,,,2022-01-24 12:05:44,2022-01-24 12:05:44,0.033s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:05:44,2022-01-24 12:06:25,40.812s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Linux - Firefox 93.0,,,2022-01-24 12:06:25,2022-01-24 12:06:27,1.893s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Linux - Firefox 93.0,,,2022-01-24 12:06:27,2022-01-24 12:06:29,1.800s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Linux - Firefox 93.0,,,2022-01-24 12:06:29,2022-01-24 12:06:31,2.351s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Linux - Firefox 93.0,,,2022-01-24 12:06:31,2022-01-24 12:06:33,1.499s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Linux - Firefox 93.0,,,2022-01-24 12:06:33,2022-01-24 12:06:34,1.453s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-24 12:06:34,2022-01-24 12:06:36,1.446s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Linux - Firefox 93.0,,,2022-01-24 12:06:36,2022-01-24 12:07:24,48.271s,FAILED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:06:36,2022-01-24 12:07:15,39.688s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Linux - Firefox 93.0,,,2022-01-24 12:07:15,2022-01-24 12:07:16,0.892s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Linux - Firefox 93.0,,,2022-01-24 12:07:16,2022-01-24 12:07:21,4.245s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Linux - Firefox 93.0,,,2022-01-24 12:07:21,2022-01-24 12:07:24,3.431s,FAILED
+,,,,,,,
+Test Cases/Apply Specific Elementsts - Verify AJAX Text Present,Linux - Firefox 93.0,,,2022-01-24 12:07:24,2022-01-24 12:08:18,53.603s,PASSED
+"comment(""If you want to use Smart Wait function for certain test elements only, it's important that you disable Default Smart Wait in Project Settings."")",Linux - Firefox 93.0,,,2022-01-24 12:07:24,2022-01-24 12:07:24,0.003s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:07:24,2022-01-24 12:08:05,41.152s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Linux - Firefox 93.0,,,2022-01-24 12:08:05,2022-01-24 12:08:06,0.959s,PASSED
+enableSmartWait(),Linux - Firefox 93.0,Enable the Smart Wait function when it's disabled by default in project settings.,,2022-01-24 12:08:06,2022-01-24 12:08:06,0.009s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Linux - Firefox 93.0,,,2022-01-24 12:08:06,2022-01-24 12:08:10,3.769s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Linux - Firefox 93.0,,,2022-01-24 12:08:10,2022-01-24 12:08:13,3.049s,PASSED
+disableSmartWait(),Linux - Firefox 93.0,Disable the Smart Wait function when it's enabled by using the above keyword.,,2022-01-24 12:08:13,2022-01-24 12:08:13,0.009s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Linux - Firefox 93.0,,,2022-01-24 12:08:13,2022-01-24 12:08:15,1.611s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Linux - Firefox 93.0,"Without enableSmartWait, this step should be failed",,2022-01-24 12:08:15,2022-01-24 12:08:16,1.579s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-24 12:08:16,2022-01-24 12:08:18,1.449s,PASSED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Linux - Firefox 93.0,,,2022-01-24 12:08:18,2022-01-24 12:09:04,46.483s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Linux - Firefox 93.0,,,2022-01-24 12:08:18,2022-01-24 12:08:18,0.002s,PASSED
+"openBrowser("""")",Linux - Firefox 93.0,,,2022-01-24 12:08:18,2022-01-24 12:08:55,37.640s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Linux - Firefox 93.0,,,2022-01-24 12:08:55,2022-01-24 12:08:56,0.893s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Linux - Firefox 93.0,,,2022-01-24 12:08:56,2022-01-24 12:08:58,1.493s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Linux - Firefox 93.0,,,2022-01-24 12:08:58,2022-01-24 12:08:59,1.700s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Linux - Firefox 93.0,,,2022-01-24 12:08:59,2022-01-24 12:09:01,1.550s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Linux - Firefox 93.0,,,2022-01-24 12:09:01,2022-01-24 12:09:03,1.622s,PASSED
+closeBrowser(),Linux - Firefox 93.0,,,2022-01-24 12:09:03,2022-01-24 12:09:04,1.576s,PASSED

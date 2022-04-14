@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Chrome 98.0.4758.80,,,2022-02-14 14:58:55,2022-02-14 14:59:17,21.550s,PASSED
+,,,,,,,
+Test Cases/Smart Await,Chrome 98.0.4758.80,,,2022-02-14 14:59:00,2022-02-14 14:59:17,17.078s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.80,,,2022-02-14 14:59:01,2022-02-14 14:59:07,6.161s,PASSED
+"navigateToUrl(""https://testcloud-smart-await.dev.katalon.com/"")",Chrome 98.0.4758.80,,,2022-02-14 14:59:07,2022-02-14 14:59:08,1.346s,PASSED
+"click(findTestObject(""Object Repository/Page_tc-smart-await - 1.0.0-SNAPSHOT/button_Button""))",Chrome 98.0.4758.80,,,2022-02-14 14:59:08,2022-02-14 14:59:09,0.460s,PASSED
+"verifyTextPresent(""Hello RESTEasy"", true)",Chrome 98.0.4758.80,,,2022-02-14 14:59:09,2022-02-14 14:59:17,7.799s,PASSED
+closeBrowser(),Chrome 98.0.4758.80,,,2022-02-14 14:59:17,2022-02-14 14:59:17,0.113s,PASSED

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Windows - Chrome 91.0.4472.164,,,2022-03-03 18:09:30,2022-03-03 18:10:45,1m - 15.199s,PASSED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Windows - Chrome 91.0.4472.164,,,2022-03-03 18:09:30,2022-03-03 18:10:45,1m - 14.893s,PASSED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:09:30,2022-03-03 18:09:30,0.049s,PASSED
+"openBrowser("""")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:09:30,2022-03-03 18:10:28,57.465s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:10:28,2022-03-03 18:10:31,3.446s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 1""))",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:10:31,2022-03-03 18:10:34,2.800s,PASSED
+"verifyTextPresent(""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat neque vel metus sodales auctor sed et arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus cursus tellus ac urna sollicitudin viverra."", false)",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:10:34,2022-03-03 18:10:37,2.950s,PASSED
+"click(findTestObject(""Page_AjaxDemo/a_Page 2""))",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:10:37,2022-03-03 18:10:40,3.200s,PASSED
+"verifyElementText(findTestObject(""Page_AjaxDemo/div_Page2_Content""), ""Aliquam imperdiet tempor facilisis. Sed elementum ultrices vulputate. In hac habitasse platea dictumst. In et accumsan turpis. Nullam laoreet posuere eros ac iaculis. Nullam ut velit arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat."")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:10:40,2022-03-03 18:10:43,3.303s,PASSED
+closeBrowser(),Windows - Chrome 91.0.4472.164,,,2022-03-03 18:10:43,2022-03-03 18:10:45,1.452s,PASSED

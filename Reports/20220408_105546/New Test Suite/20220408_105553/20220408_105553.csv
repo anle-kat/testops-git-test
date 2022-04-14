@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Windows - Chrome 98.0.4758.80,,,2022-04-08 10:56:26,2022-04-08 10:58:00,1m - 33.772s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Windows - Chrome 98.0.4758.80,,,2022-04-08 10:56:27,2022-04-08 10:58:00,1m - 33.321s,PASSED
+"openBrowser("""")",Windows - Chrome 98.0.4758.80,,,2022-04-08 10:56:27,2022-04-08 10:57:40,1m - 12.918s,PASSED
+"navigateToUrl(""https://hosrem.zamo.io/user/login"")",Windows - Chrome 98.0.4758.80,,,2022-04-08 10:57:40,2022-04-08 10:57:46,5.826s,PASSED
+"setText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username""), ""admin@hosrem.org.vn"")",Windows - Chrome 98.0.4758.80,,,2022-04-08 10:57:46,2022-04-08 10:57:51,5.151s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password""), ""lRjbE94itQ2P5Nq77tCtDw=="")",Windows - Chrome 98.0.4758.80,,,2022-04-08 10:57:51,2022-04-08 10:57:54,3.273s,PASSED
+"click(findTestObject(""Object Repository/Page_ng nhp - HOSREM/button_ng nhp""))",Windows - Chrome 98.0.4758.80,,,2022-04-08 10:57:54,2022-04-08 10:57:56,1.871s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh""), ""Danh sách hội nghị"")",Windows - Chrome 98.0.4758.80,,,2022-04-08 10:57:56,2022-04-08 10:57:58,2.170s,PASSED
+closeBrowser(),Windows - Chrome 98.0.4758.80,,,2022-04-08 10:57:58,2022-04-08 10:58:00,1.737s,PASSED

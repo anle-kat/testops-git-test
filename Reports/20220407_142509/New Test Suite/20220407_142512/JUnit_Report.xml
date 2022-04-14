@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="188.582" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="188.582" skipped="0" timestamp="2022-04-07 14:25:24" hostname="anle - 10.10.33.156" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220407_142509/New Test Suite/20220407_142512"/>
+         <property name="logFiles" value="/Users/anle/Projects/TestCloud/Testing/smart-wait-example-tests/Reports/20220407_142509/New Test Suite/20220407_142512/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anle - 10.10.33.156"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97.0.4692.99&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Users\\ContainerUser\\AppData\\Local\\Temp\\scoped_dir20392_1236839982&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49528&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;organizationId&quot;: &quot;575235&quot;,
+    &quot;unlimitedExecutionMinutes&quot;: false,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhbi5sZUBrYXRhbG9uLmNvbSIsInVwbiI6Ijc2MjEwMCIsImdyb3VwcyI6WyJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IkFuIiwiZmFtaWx5X25hbWUiOiJMZSIsImVtYWlsIjoiYW4ubGVAa2F0YWxvbi5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiY3JlYXRlZF9hdCI6MTYzMTI2OTcwMSwidXBkYXRlZF9hdCI6MTY0OTI5NjQ2OCwiYW1yIjpbInB3ZCJdLCJpYXQiOjE2NDkyOTY1NzQsImV4cCI6MTY0OTkwMTM3NCwianRpIjoiNzNkYWYyZDMtYmZlMC00Mjc2LWFkMDQtODQwMTZjMjhjZTI5IiwiaXNzIjoia2F0YWxvbi1hdXRoIn0.eMLisrMF7BcVMpvhrWvJtztUs4qmctcm0V_5zVm7E1Bd0-UuNk4UJasXjblT_3DvR0AA5ERWOLy8VbJUZn7MvLqnTCWLfzVtjHi33rUSQzEu24_pz8Z26RhhR5_JGWGnENPLUmaPn0oZ7ZegWaXYmYluOV_qmnd1sUV3HITuA_NoLSiBFMK2DC2B0fssByWpv9rJRKOTUQrnhztdhbM2m4YqyOmnfLTKC3RzinLvj89I4XNmsndYu6ubsnLawqr7W6ZcaEjIQtSRV7t7HPToAw5E4MbGF0VcmZJivxd0R43X6Zxg1PkN9FLQ7n5HBHJRfgR70_B98zGoWXSiM2FgOQ&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;userId&quot;: 762100,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;an.le@katalon.com&quot;
+  },
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;13cb7c23-24f8-42f5-bb54-d0a5548adb44&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.102.5:4444/session/b07172349d374a5034f99897f59fe1b6/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;97.0.4692.99&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="10.10.33.156"/>
+         <property name="sessionId" value="b07172349d374a5034f99897f59fe1b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=SOCKS, username=, password=********, proxyServerAddress=localhost, proxyServerPort=8080, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="69.957" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-04-07 14:27:23 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-04-07 14:27:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-07 14:27:23 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-04-07 14:27:23 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-07 14:27:23 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-07 14:27:23 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575235, tunnelId=, usingTunnel=false}']
+
+2022-04-07 14:27:23 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-07 14:27:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-07 14:28:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-07 14:28:18 - [TEST_STEP][PASSED] - navigateToUrl("https://hosrem.zamo.io/user/login"): Navigate to 'https://hosrem.zamo.io/user/login' successfully
+
+2022-04-07 14:28:23 - [MESSAGE][PASSED] - Navigate to 'https://hosrem.zamo.io/user/login' successfully
+
+2022-04-07 14:28:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username"), "admin@hosrem.org.vn"): Text 'admin@hosrem.org.vn' is set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username'
+
+2022-04-07 14:28:26 - [MESSAGE][PASSED] - Text 'admin@hosrem.org.vn' is set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_username'
+
+2022-04-07 14:28:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password"), "lRjbE94itQ2P5Nq77tCtDw=="): Text ****** has been set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password'
+
+2022-04-07 14:28:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ng nhp - HOSREM/input_ng nhp_password'
+
+2022-04-07 14:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ng nhp - HOSREM/button_ng nhp")): Object: 'Object Repository/Page_ng nhp - HOSREM/button_ng nhp' is clicked on
+
+2022-04-07 14:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ng nhp - HOSREM/button_ng nhp' is clicked on
+
+2022-04-07 14:28:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh"), "Danh sách hội nghị"): Actual text and expected text of test object 'Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh' are matched.
+
+2022-04-07 14:28:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Hi ngh - HOSREM/span_Danh sch hi ngh' are matched.
+
+2022-04-07 14:28:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-07 14:28:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-07 14:25:24 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649316312291.run(TempTestSuite1649316312291.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: RestClientProxy is closed
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cbf:b225:2c90:e14b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ContainerUser\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:49324}, javascriptEnabled: true, katalon:option: {apiKey: null, class: com.katalon.testcloud.grid...., group: null, jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 575235, secret: null, teamId: null, tenant: null, unlimitedExecutionMinutes: false, userId: 762100, username: an.le@katalon.com, usingTunnel: false}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), requestId: 59e277b7-8512-4949-985f-65d..., se:cdp: ws://172.48.76.18:4444/sess..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab60a9f18a65d4de633088cb05127cf1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1482)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:73)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-07 14:25:24 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:85)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeBrowser$5.call(Unknown Source)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649316312291.run(TempTestSuite1649316312291.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: RestClientProxy is closed
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Ans-MacBook-Pro.local', ip: 'fe80:0:0:0:1cbf:b225:2c90:e14b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\ContainerUser\AppD...}, goog:chromeOptions: {debuggerAddress: localhost:49324}, javascriptEnabled: true, katalon:option: {apiKey: null, class: com.katalon.testcloud.grid...., group: null, jwt: eyJ0eXAiOiJKV1QiLCJhbGciOiJ..., organizationId: 575235, secret: null, teamId: null, tenant: null, unlimitedExecutionMinutes: false, userId: 762100, username: an.le@katalon.com, usingTunnel: false}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(direct), requestId: 59e277b7-8512-4949-985f-65d..., se:cdp: ws://172.48.76.18:4444/sess..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab60a9f18a65d4de633088cb05127cf1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.quit(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:211)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:1482)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:73)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

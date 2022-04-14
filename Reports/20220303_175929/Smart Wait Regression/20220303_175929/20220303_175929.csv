@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smart Wait Regression,Windows - Chrome 91.0.4472.164,,,2022-03-03 17:59:41,2022-03-03 18:01:11,1m - 29.766s,FAILED
+,,,,,,,
+Test Cases/Apply All Elements - Verify AJAX Text Present,Windows - Chrome 91.0.4472.164,,,2022-03-03 17:59:41,2022-03-03 18:01:11,1m - 29.387s,FAILED
+"comment(""To enable the Smart Wait function for the whole project in Katalon Studio, navigate to Project > Settings > Execution> Select Enable in Default Smart Wait."")",Windows - Chrome 91.0.4472.164,,,2022-03-03 17:59:41,2022-03-03 17:59:41,0.072s,PASSED
+"openBrowser("""")",Windows - Chrome 91.0.4472.164,,,2022-03-03 17:59:41,2022-03-03 18:01:06,1m - 24.605s,PASSED
+"navigateToUrl(""https://demo.tutorialzine.com/2009/09/simple-ajax-website-jquery/demo.html"")",Windows - Chrome 91.0.4472.164,,,2022-03-03 18:01:06,2022-03-03 18:01:10,4.439s,FAILED
